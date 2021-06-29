@@ -1,0 +1,26 @@
+$primary-color: #047aed;
+
+.navbar {
+  background-color: $primary-color;
+  color: #fff;
+  height: 70px;
+  .flex {
+    justify-content: space-between;
+    ul {
+      display: flex;      
+    }
+    a {
+      display: flex;
+      color: #fff;
+      padding: 10px;
+      margin: 0 5px;
+      justify-content: center;
+      align-content: center;
+    }
+    a:hover {
+      border-bottom: 2px solid #fff;
+    }
+  }
+}
+
+

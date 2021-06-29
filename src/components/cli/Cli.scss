@@ -1,0 +1,16 @@
+.cli .grid {
+  grid-template-columns: repeat(2, 1fr );
+  grid-template-areas: 
+  'img cli1'
+  'img cli2'
+  ;
+}
+.img-pic {
+  grid-area: img;
+}
+.cli1{
+  grid-area: cli1;
+}
+.cli2{
+  grid-area: cli2;
+}
